@@ -8,7 +8,10 @@ class TestApplicationTests {
 
 	@Test
 	void contextLoads() {
-		FAIL
+	}
+
+	@Test
+	void anotherTest() {
 	}
 
 }
