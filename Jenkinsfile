@@ -2,6 +2,12 @@ pipeline {
     agent any
 
     stages {
+        stage('Show Java') {
+            steps {
+                System.out.println("Java is Here");
+            }
+        }
+        
         stage('Launch Tests') {
             steps {
                 sh './gradlew test'
