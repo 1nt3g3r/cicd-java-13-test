@@ -4,7 +4,9 @@ pipeline {
     stages {
         stage('Show Java') {
             steps {
-                System.out.println("Java is Here");
+                script {
+                    System.out.println("Java is Here");
+                }
             }
         }
         
