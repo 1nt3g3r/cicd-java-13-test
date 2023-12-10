@@ -29,3 +29,7 @@ tasks.named('bootBuildImage') {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+
+bootJar {
+    archiveFileName = 'test-app.jar'
+}
