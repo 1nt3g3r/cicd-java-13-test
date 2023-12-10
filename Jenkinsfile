@@ -16,7 +16,7 @@ pipeline {
 
         stage('Archive JAR') {
             steps {
-                archiveArtifacts artifacts: './build/libs/test-app.jar', onlyIfSuccessful: true
+                archiveArtifacts artifacts: 'build/libs/test-app.jar', onlyIfSuccessful: true
             }
         }
 
